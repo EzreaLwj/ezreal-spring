@@ -14,6 +14,7 @@
         <module>mini-spring3</module>
         <module>mini-spring4</module>
         <module>mini-spring5</module>
+        <module>mini-spring6</module>
     </modules>
 
     <properties>

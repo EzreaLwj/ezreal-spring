@@ -38,7 +38,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
                 result.put(beanName, (T) getBean(beanName));
             }
         });
-        return null;
+        return result;
     }
 
     @Override

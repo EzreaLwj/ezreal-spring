@@ -19,6 +19,11 @@
         <module>mini-spring8</module>
         <module>mini-spring9</module>
         <module>mini-spring10</module>
+        <module>mini-spring11</module>
+        <module>mini-spring12</module>
+        <module>mini-spring13</module>
+        <module>mini-spring14</module>
+        <module>mini-spring15</module>
     </modules>
 
     <properties>
@@ -45,6 +50,27 @@
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-cli</artifactId>
+            <version>0.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.3</version>
         </dependency>
     </dependencies>
 
